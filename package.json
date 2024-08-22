@@ -5,18 +5,17 @@
   "author": "Salesforce",
   "bugs": "https://github.com/oclif/eslint-config-oclif-typescript/issues",
   "dependencies": {
-    "@typescript-eslint/eslint-plugin": "^6.21.0",
-    "@typescript-eslint/parser": "^6.21.0",
+    "typescript-eslint": "^8.2.0",
+    "@typescript-eslint/parser": "^8.2.0",
     "eslint-config-xo-space": "^0.35.0",
-    "eslint-import-resolver-typescript": "^3.6.1",
-    "eslint-plugin-import": "^2.29.1",
+    "eslint-plugin-jsdoc": "^50.2.2",
     "eslint-plugin-mocha": "^10.5.0",
-    "eslint-plugin-n": "^15",
-    "eslint-plugin-perfectionist": "^2.11.0"
+    "eslint-plugin-n": "^17",
+    "eslint-plugin-perfectionist": "^3.2.0"
   },
   "devDependencies": {
     "@oclif/prettier-config": "^0.2.1",
-    "eslint": "^8.57.0",
+    "eslint": "^9.9.0",
     "typescript": "^5"
   },
   "engines": {
@@ -29,6 +28,7 @@
   "keywords": [
     "oclif"
   ],
+  "type": "module",
   "license": "MIT",
   "main": "index.js",
   "repository": "oclif/eslint-config-oclif-typescript",
